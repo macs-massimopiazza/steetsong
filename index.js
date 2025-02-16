@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
     document.querySelector('#output span').innerHTML = `✨E' una street song✨ <br> <img src="bro.jpeg" />`;
     document.querySelector('#output').style.display = 'block';
   } else {
-    document.querySelector('#output span').innerHTML = "Non è una street song";
+    document.querySelector('#output span').innerHTML = `Non è una street song <br> <img src="bro-no.jpeg" />`;
     document.querySelector('#output').style.display = 'block';
   };
 });
